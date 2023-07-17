@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Elmine Sidi Mohamed">
+        <meta name="description" content="this is a test website for TABLE 
+        d'or cafeteria in the 
+        toyota morocco headquarters">
+        <title>LA TABLE D'OR Cart</title>
+        <link rel="icon" href="">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+<body>
+
+           <!--navbar code here-->
+           <nav class="navbar">
+            <div class="navbar_container">
+                <a href="/" id="navbar_logo"><h1>LA_TABLE_D'OR</h1></a>
+                <div class="navbar_toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                
+                <ul class="navbar_menu">
+                    <li class="navbar_item">
+                        <a href="/" class="navbar_links"> HOME </a>
+                    </li>
+                    <li class="navbar_btn">
+                        <a href="cart.html" class="button"> CART </a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav> 
+
+
+  <h1 id="pan-title">PANIER</h1>
+  
+  <form action="order.php" method="post">
+
+    <label for="name">Nom:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="food">commande:</label>
+    <textarea id="food" name="food" required></textarea>
+    
+    <input type="submit" value="Submit Order">
+  </form>
+</body>
+</html>
